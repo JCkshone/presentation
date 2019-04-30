@@ -19,7 +19,9 @@ class Section1 extends Component {
   render() {
       
     return (
-        <SliderComponent></SliderComponent>
+        <SliderComponent
+        content={this.props.data}
+        ></SliderComponent>
     );
   }
 }

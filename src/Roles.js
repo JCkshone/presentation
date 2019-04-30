@@ -33,7 +33,7 @@ class RolesComponent extends Component {
                             key={key}
                             className="vertical-timeline-element--work"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', paddingTop: '10px' }}
-                            icon={<MaterialIcon icon="alarm_on" size='large' />}
+                            icon={<MaterialIcon icon="view_agenda" size='large' />}
                         >
                             <div>
                                 <h3 className="vertical-timeline-element-title">{e.title}</h3>
